@@ -26,5 +26,12 @@ namespace EventApplication.Controllers
 
             return View();
         }
+
+        public ActionResult FindEvent()
+        {
+            ViewBag.Message = "Events page with specific date parameters sent to it";
+
+            return View();
+        }
     }
 }
